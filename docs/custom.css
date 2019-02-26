@@ -1,0 +1,18 @@
+/* Auto hide bookmark bar */
+
+.bookmark-bar {
+  position: fixed !important;
+  width: 100%;
+  transform: translateY(0);
+  transition: transform 0.1s !important;
+  z-index: 1;
+}
+
+.bookmark-bar:hover,
+.toolbar:hover~.bookmark-bar {
+  transform: translateY(34px);
+}
+
+.toolbar {
+  z-index: 999;
+}
