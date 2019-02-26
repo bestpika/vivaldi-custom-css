@@ -16,3 +16,7 @@
 .toolbar {
   z-index: 999;
 }
+
+.webpanel-header {
+  z-index: 0;
+}
